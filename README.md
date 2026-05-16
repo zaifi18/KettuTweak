@@ -14,7 +14,6 @@ To resolve the fixable issue, you need to match the app's bundle ID with your pr
 <tr>
     <th>Issue</th>
     <th>Fixable</th>
-    <th>Example</th>
 </tr>
 <tr>
     <td>Cannot change app icons</td>
