@@ -36,14 +36,14 @@ on:
 
 env:
   GH_TOKEN: ${{ github.token }}
+  
+permissions: write-all
 
 jobs:
   build-tweak:
     runs-on: macos-15
-    permissions: write-all
     env:
       DEB_DOWNLOADED: false
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
