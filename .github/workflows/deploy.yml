@@ -40,10 +40,7 @@ env:
 jobs:
   build-tweak:
     runs-on: macos-15
-    permissions:
-      contents: write
-      issues: write
-      pull-requests: write
+    permissions: write-all
     env:
       DEB_DOWNLOADED: false
 
